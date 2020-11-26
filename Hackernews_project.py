@@ -50,7 +50,7 @@ def total_pages(pages_num):                  #this function combines the various
 
     # for 1st news page
     hn_page = hackernews_page("https://news.ycombinator.com/news")
-    combined_pages.extend(hn_page)
+    combined_pages.extend(hn_page)           #appends to the combined_pages list
 
     # loop over rest of news pages
     for i in range(2, pages_num + 1):
